@@ -1,0 +1,1 @@
+sdk.dir = C:\\Users\\VINTEDGE\\AppData\\Local\\Android\\sdk
