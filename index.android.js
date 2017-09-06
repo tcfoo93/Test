@@ -13,7 +13,8 @@ export default class Test extends Component {
       uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
     };
     return (
-      <Image source={pic} style={{width: 400, height: 200}}/>
+      <Image source={pic} style={{width: 300, height: 150}}/>
+      <Image source={pic} style={{width: 300, height: 150}}/>
     );
   }
 }
