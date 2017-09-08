@@ -7,7 +7,7 @@
 import React, { Component } from 'react';
 import ReactNative, { AppRegistry, ListView, View, AlertIOS, TextInput } from 'react-native';
 import * as firebase from 'firebase';
-const Login = require('./pages/Login');
+//const Login = require('./pages/Login');
 const StatusBar = require('./component/StatusBar');
 const ActionButton = require('./component/ActionButton');
 const ListItem = require('./component/ListItem');
