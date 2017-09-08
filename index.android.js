@@ -7,6 +7,7 @@
 import React, { Component } from 'react';
 import ReactNative, { AppRegistry, ListView, View, Alert, TextInput } from 'react-native';
 import * as firebase from 'firebase';
+const Login = require('./pages/Login');
 const StatusBar = require('./component/StatusBar');
 const ActionButton = require('./component/ActionButton');
 const ListItem = require('./component/ListItem');
@@ -31,7 +32,7 @@ class Test extends Component {
     };
     this.itemsRef = this.getRef().child('items');
 
-    this.itemsRef.set({
+     this.itemsRef.set({
       title: "Hello World!",
       author: "Simon",
       location: {
